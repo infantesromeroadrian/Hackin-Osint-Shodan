@@ -18,6 +18,9 @@ Este proyecto utiliza la API de Shodan para automatizar la búsqueda y análisis
 3. **Visualización Geográfica**:
   - Genera mapas interactivos con Folium para mostrar la ubicación de los dispositivos encontrados.
 
+  `mapa_shodan.html`
+
+
 4. **Manejo de Errores**:
   - Reintentos automáticos en conexiones fallidas.
   - Exclusión de servidores con respuestas no válidas (`404`, `403`).
