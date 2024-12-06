@@ -26,16 +26,18 @@ Este proyecto utiliza la API de Shodan para automatizar la búsqueda y análisis
 
 ## 📂 **Estructura del Proyecto**
 
+```markdown
 OSINT/
 ├── src/
-│   ├── login_automation.py     # Verifica credenciales predeterminadas en servidores DVWA
-│   ├── pyshodan.py            # Script principal para búsquedas y análisis
-│   ├── shodansearch.py        # Clase para interactuar con la API de Shodan
-│   ├── mapa_shodan.py         # Genera mapas interactivos con los resultados
-│   ├── resultados_shodan.json # Resultados crudos obtenidos de Shodan
-│   └── resultados_validos.json# Resultados filtrados con análisis adicional
-├── .env                       # Archivo para almacenar claves de API de forma segura
-├── README.md                  # Documentación del proyecto
+│   ├── login_automation.py     \# Verifica credenciales predeterminadas en servidores DVWA
+│   ├── pyshodan.py            \# Script principal para búsquedas y análisis
+│   ├── shodansearch.py        \# Clase para interactuar con la API de Shodan
+│   ├── mapa_shodan.py         \# Genera mapas interactivos con los resultados
+│   ├── resultados_shodan.json \# Resultados crudos obtenidos de Shodan
+│   └── resultados_validos.json\# Resultados filtrados con análisis adicional
+├── .env                       \# Archivo para almacenar claves de API de forma segura
+├── README.md                  \# Documentación del proyecto
+```
 
 ---
 
